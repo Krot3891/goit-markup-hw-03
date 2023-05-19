@@ -49,6 +49,7 @@ text-decoration: none;
 
 .header {
 padding-top: 25.5px;
+border-bottom: 1px solid #e7e9fc
 }
 
 .header-logo {
@@ -64,7 +65,7 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--third-text-color);
 text-decoration: none;
-margin-right: 93px;
+margin-right: 76px;
 }
 
 .studio-logo-header {
@@ -80,7 +81,7 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--primary-text-color);
 text-decoration: none;
-margin-right: 93px;
+margin-right: 76px;
 }
 
 /*----------HEADER-----------*/
@@ -93,17 +94,17 @@ align-items: center;
 
 .header-nav {
 display: flex;
-align-items: baseline
+align-items: center;
 }
 
 .header-list {
 display: flex;
 align-items: center;
-gap: 50px;
+gap: 40px;
 }
 
 .header-list:not(:last-child) {
-margin-right: 50px;
+margin-right: 40px;
 }
 
 .header-link {
@@ -112,6 +113,7 @@ font-size: 16px;
 line-height: 1.5;   
 letter-spacing: 0.02em;
 color: var(--primary-text-color);
+display: flex;
 }
 
 .header-link:hover,
@@ -129,13 +131,17 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--secondary-text-color);
+margin-right: 0px;
 
 }
 
 .header-address-link:hover,
 .header-address-link:focus {
 color: var(--accent-color);
+}
 
+.header-address-list {
+display: flex;
 }
 
 /*----------HERO-----------*/
