@@ -48,8 +48,8 @@ text-decoration: none;
 /*----------LOGO-----------*/
 
 .header {
-padding-top: 25.5px;
-border-bottom: 1px solid #e7e9fc
+padding: 24px 0;
+border-bottom: 1px solid #e7e9fc;
 }
 
 .header-logo {
@@ -142,6 +142,11 @@ color: var(--accent-color);
 
 .header-address-list {
 display: flex;
+gap: 40px
+}
+
+.header-address-list:not(:last-child) {
+margin-right: 40px;
 }
 
 /*----------HERO-----------*/
