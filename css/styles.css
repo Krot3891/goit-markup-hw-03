@@ -101,7 +101,6 @@ align-items: center;
 display: flex;
 align-items: center;
 gap: 40px;
-padding: 24px 0;
 }
 
 .header-list:not(:last-child) {
@@ -115,6 +114,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--primary-text-color);
 display: flex;
+padding: 24px 0;
 }
 
 .header-link:hover,
@@ -132,8 +132,6 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--secondary-text-color);
-margin-right: 0px;
-
 }
 
 .header-address-link:hover,
