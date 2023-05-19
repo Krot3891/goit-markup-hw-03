@@ -101,6 +101,7 @@ align-items: center;
 display: flex;
 align-items: center;
 gap: 40px;
+padding: 24px 0;
 }
 
 .header-list:not(:last-child) {
@@ -143,6 +144,7 @@ color: var(--accent-color);
 .header-address-list {
 display: flex;
 gap: 40px;
+padding: 24px 0;
 }
 
 .header-address-list:not(:last-child) {
