@@ -142,6 +142,8 @@ color: var(--accent-color);
 
 .hero {
 background-color: var(--primary-text-color);
+padding-top: 200px;
+padding-bottom: 200px;
 }
 
 .hero-title {
@@ -151,7 +153,9 @@ line-height: 1.07;
 text-align: center;
 letter-spacing: 0.02em;
 color: var(--white-color);
+width: 496px;
 margin-bottom: 48px;
+margin: auto;
 }
 
 .hero-btn {
@@ -166,7 +170,12 @@ color: var(--white-color);
 background-color: var(--third-text-color);
 cursor: pointer;
 margin: 0 auto;
-padding: 16px 32 px;
+padding: 16px 32px;
+display: block;
+border: 0;
+border-radius: 4px;
+box-shadow: 0px 4px 4px grba(0,0,0,0.15);
+
 }
 
 .hero-btn:hover,
