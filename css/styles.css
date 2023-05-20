@@ -321,7 +321,8 @@ padding: 32px 16px;
 /*----------FOOTER-----------*/
 
 .footer-title {
-   background-color: var(--primary-text-color); 
+background-color: var(--primary-text-color);
+padding: 100px 0;
 }
 
 .footer-logo {
@@ -330,11 +331,12 @@ font-style: normal;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
-display: flex;
+display: inline-block;
 align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--third-text-color);
+margin-bottom: 16px;
 }
 
 .studio-logo-footer {
