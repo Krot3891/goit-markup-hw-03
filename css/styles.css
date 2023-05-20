@@ -206,10 +206,6 @@ padding-top: 120px;
 padding-bottom: 120px;
 }
 
-.dvantages-title {
-margin-bottom: 8px;
-}
-
 .advantages-list {
 display: flex;
 gap: 24px;
@@ -225,6 +221,7 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: var(--primary-text-color);
+margin-bottom: 8px;
 }
 
 .basic-text {
