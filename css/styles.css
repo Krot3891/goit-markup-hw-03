@@ -397,6 +397,13 @@ background-color: var(--accent-color);
 border: 1px solid transparent;
 }
 
+.portfolio-list {
+display: flex;
+flex-wrap: wrap;
+column-gap: 24px;
+row-gap: 48px;
+}
+
 .portfolio-title {
 font-weight: 500;
 font-size: 20px;
@@ -412,13 +419,6 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--secondary-text-color);
-}
-
-.portfolio-list {
-display: flex;
-flex-wrap: wrap;
-column-gap: 24px;
-row-gap: 48px;
 }
 
 .portfolio-item {
