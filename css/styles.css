@@ -363,6 +363,7 @@ max-width: 264px;
 /*================PORTFOLIO==============*/
 .portfolio-container {
 padding: 96px 0 120px;
+
 }
 
 .btn-list {
@@ -417,7 +418,7 @@ color: var(--secondary-text-color);
 display: flex;
 flex-wrap: wrap;
 column-gap: 24px;
-
+row-gap: 48px;
 }
 
 .portfolio-item {
