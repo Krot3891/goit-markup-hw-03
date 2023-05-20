@@ -364,6 +364,7 @@ max-width: 264px;
 .portfolio-container {
 padding: 96px 0 120px;
 
+
 }
 
 .btn-list {
@@ -402,6 +403,11 @@ display: flex;
 flex-wrap: wrap;
 column-gap: 24px;
 row-gap: 48px;
+}
+
+.portfolio-link {
+padding: 32px 16px;
+border: 1px solid #e7e9fc;
 }
 
 .portfolio-title {
